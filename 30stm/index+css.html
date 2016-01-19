@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>30STM</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<style type="text/css">
+
+.body {
+  padding-top: 1em;
+}
+.menu, .menu-list, .menu-item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.menu-link {
+  background-color: #ff0;
+  color: #333;
+  text-decoration: none;
+}
+.menu-link:visited {
+  background-color: #ee1;
+  color: #999;
+}
+.menu-link:hover {
+  background-color: #333;
+  color: #ff0;
+}
+.menu-link:active {
+  background-color: #f00;
+  color: #fff;
+}
+
+.current .menu-link {
+  background-color: #eee;
+  color: #000;
+}
+
+<body>
+  
+  <nav class="menu main-menu">
+    <ul class="menu-list">
+      <li class="menu-item"><a href="http://link1.com" class="menu-link">link-1</a></li>
+      <li class="menu-item current"><!--тут активная ссылка-раздел-->
+
+
+      <a href="http://link2.com" class="menu-link">link-2</a></li>
+      <li class="menu-item"><a href="http://link3.com" class="menu-link">link-3</a></li>
+      <li class="menu-item"><a href="http://link4.com" class="menu-link">link-4</a></li>
+    </ul>
+  </nav>
+  
+  <main class="content">
+    Content
+  </main>
+</body>
+
+</html>

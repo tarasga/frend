@@ -1,0 +1,53 @@
+.block {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.kv {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 60px;
+  position: relative;
+}
+
+.pr {
+  background-color: red;
+  height: 200px;
+  top: 150px;
+  left: 20px;
+  position: absolute;
+}
+
+.rn {
+ background-color: green;
+  height: 50px;
+  width: 50px;
+  top: 40px;
+  margin-left: 90px;
+  margin-top: 120px;
+  border-radius: 50%;
+  position: fixed;
+    
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div class="block kv"></div>
+  <div class="block pr"></div>
+  <div class="block rn"></div>
+</body>
+</html>

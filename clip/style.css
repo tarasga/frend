@@ -1,0 +1,41 @@
+.block {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.block:hover {
+    left: 0;
+    width: 500px;
+    z-index: 100;
+    clip: auto;
+}
+
+.block-img1 {
+    left: 100px;
+    clip: rect(0, 100px, 500px, 0);
+    background-image: url(1.jpg);
+}
+.block-img2 {
+    left: 100px;
+    clip: rect(0, 150px, 500px, 0);
+    background-image: url(3.jpg);
+}
+.block-img3 {
+    left: 100px;
+    background-image: url(2.jpg);
+}
+.block-img4 {
+    left: 100px;
+    background-image: url(3.jpg);
+}
+.block-img5 {
+    left: 100px;
+    background-image: url(5.jpg);
+}

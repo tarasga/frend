@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Имя вкладки</title>
+    <style>
+        .block {
+            position: absolute;
+            left: 10000px;
+            background-color: yellow;
+            animation: box 2s forwards;
+
+        }
+
+        @keyframes box {
+            from {
+                top: 0;
+                left: 100%;
+            }
+            to {
+                left: 0;
+                top: 450px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="block">Текст</div>
+
+</body>
+</html>

@@ -13,11 +13,11 @@
 .sprite-Clock {
     width: 24px;
     height: 24px;
-    background-position: -39px -5px;
+    background-position: -5px -39px;
 }
 
 .sprite-Delete {
     width: 24px;
     height: 24px;
-    background-position: -5px -39px;
+    background-position: -39px -5px;
 }
